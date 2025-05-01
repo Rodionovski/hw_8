@@ -1,0 +1,66 @@
+* {
+    box-sizing: content-box;
+}
+.container {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 300px auto 0;
+}
+.blockOne {
+    position: absolute;
+    top: -52px;
+    left: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+.blockTwo {
+    position: absolute;
+    top: -52px;
+    right: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+.blockThree {
+    position: absolute;
+    bottom: -52px;
+    right: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+.blockFour {
+    position: absolute;
+    bottom: -52px;
+    left: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+.crossOne {
+    position: absolute;
+    top: -52px;
+    right: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 50px;
+    color: red;
+    font-size: 30px;
+}
+.crossTwo {
+    position: absolute;
+    bottom: -52px;
+    left: -52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 50px;
+    color: red;
+    font-size: 30px;
+}
