@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+}
+
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 100px auto 0;
+}
+.blockOne {
+    border: 2px solid red;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    margin: 20px auto 0;
+}
+.blockTwo {
+    border: 3px solid red;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin: -50px auto;
+}
